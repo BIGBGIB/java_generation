@@ -28,12 +28,8 @@ public class SalarioLiquido {
 		
 		System.out.printf("\nSalário Líquido: %.2f", salarioBruto + (valorHora * horasExtras) + adicionalNoturno - descontos);
 		
+		leia.close();
 		
-		
-		
-		
-
-		
-	}
+    }
 
 }
