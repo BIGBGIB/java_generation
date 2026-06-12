@@ -18,7 +18,8 @@ public class SalarioeAbono {
 		
 		System.out.printf("Salário Final: R$ %.2f", salario + abono);
 		
-
+		leia.close();
+		
 	}
 
 }
