@@ -14,18 +14,18 @@ public class PlanoDeSaude {
 		System.out.print("Informe sua idade: ");
 		int idade = leia.nextInt();
 		
-		System.out.printf("---%s---", nome);
+		System.out.printf("---%s---\n", nome);
 		
 		if(idade >= 0 && idade <= 18) {
-			System.out.println("\nA mensalidade do Plano é R$ 100,00");
+			System.out.println("A mensalidade do Plano é R$ 100,00");
 		} else if(idade >= 19 && idade <= 23) {
-			System.out.println("\nA mensalidade do Plano é R$ 200,00");
+			System.out.println("A mensalidade do Plano é R$ 200,00");
 		} else if(idade >= 24 && idade <= 28) {
-			System.out.println("\nA mensalidade do Plano é R$ 300,00");
+			System.out.println("A mensalidade do Plano é R$ 300,00");
 		} else if(idade >= 29 && idade <= 33) {
-			System.out.println("\nA mensalidade do Plano é R$ 400,00");
+			System.out.println("A mensalidade do Plano é R$ 400,00");
 		} else if(idade >= 34 && idade <= 38) {
-			System.out.println("\nA mensalidade do Plano é R$ 500,00");
+			System.out.println("A mensalidade do Plano é R$ 500,00");
 		} else if(idade >= 39 && idade <= 43) {
 			System.out.println("A mensalidade do Plano é R$ 600,00");
 		} else if(idade >= 441 && idade <= 48) {
