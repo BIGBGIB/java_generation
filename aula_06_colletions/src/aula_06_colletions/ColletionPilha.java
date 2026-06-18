@@ -31,7 +31,7 @@ public class ColletionPilha {
 		for(var cores : pilha) {
 			System.out.println(cores);
 			}
-		
+		leia.close();
 
 	}
 

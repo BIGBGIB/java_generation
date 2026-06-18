@@ -31,7 +31,7 @@ public class Lista02_3 {
 			System.out.println("*******************************************\n");
 			System.out.println("  1- Listar todos os números                 ");
 			System.out.println("  2- Remover um número                       ");
-			System.out.println("  7- Sair                                    ");
+			System.out.println("  0- Sair                                    ");
 
 			System.out.print("Digite a opção desejada: ");
 			opcao = leia.nextInt();
@@ -62,6 +62,7 @@ public class Lista02_3 {
 			}
 		} 
 		System.out.println("Sessão Finalizada!");
+		leia.close();
 	}
 }
 

@@ -32,6 +32,7 @@ public class ColletionFila {
 		for(var pessoas : fila) {
 			System.out.println(pessoas);
 		}
+		leia.close();
 		
 
 	}

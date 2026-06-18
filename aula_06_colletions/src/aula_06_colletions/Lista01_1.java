@@ -54,5 +54,6 @@ public class Lista01_1 {
 			}
 		}
 		System.out.println("Sessão Finalizada!");
+		leia.close();
 	}
 }
